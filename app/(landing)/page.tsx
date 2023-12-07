@@ -48,7 +48,7 @@ const Hero = () => {
       <div className="mt-3 flex max-w-4xl flex-col flex-wrap items-center justify-around sm:w-full sm:flex-row">
         <Link href="/lead-magnets">
           <Button variant="default" className="md:text-xl">
-            Create Your First Quantom Lead
+            Create A Quantum Lead
           </Button>
         </Link>
       </div>
@@ -254,7 +254,7 @@ const CallToAction = () => {
       </p>
       <Link href="/lead-magnets">
         <Button className="text-sm px-4 py-5 sm:text-lg mt-4">
-          Create Your First AI Lead Magnet
+          Create Your First Quantum Lead 
         </Button>
       </Link>
     </div>
