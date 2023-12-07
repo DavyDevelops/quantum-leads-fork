@@ -61,7 +61,7 @@ function LeadMagnetContentEditor() {
   return (
     <div className="flex h-full flex-row">
       <div className="m-8 flex w-1/2 flex-col">
-        <h1 className="mb-4 text-3xl font-bold text-purple-500">
+        <h1 className="mb-4 text-3xl font-bold text-green-500">
           Content Editor
         </h1>
         <div className="mb-4">
@@ -109,7 +109,7 @@ function LeadMagnetContentEditor() {
           )}
         </div>
       </div>
-      <div className="purple-dotted-pattern flex h-full w-1/2 flex-col overflow-y-auto">
+      <div className="green-dotted-pattern flex h-full w-1/2 flex-col overflow-y-auto">
         <div className="mx-12 my-8 flex h-full max-w-lg lg:mx-auto">
           <LeadMagnetContentPreview
             body={edittedLeadMagnet.draftBody}

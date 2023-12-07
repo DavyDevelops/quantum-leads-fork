@@ -9,7 +9,7 @@ function LeadMagnetSettings() {
   return (
     <div className="flex h-full flex-row w-full">
       <div className="m-8 flex w-full h-full flex-col">
-        <h1 className="mb-4 text-3xl font-bold text-purple-500">
+        <h1 className="mb-4 text-3xl font-bold text-green-500">
           Lead Magnet Settings
         </h1>
         <div className="mb-4">

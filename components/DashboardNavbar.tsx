@@ -22,7 +22,7 @@ function DashboardNavBar() {
   console.log("pathname", pathname);
 
   return (
-    <div className="p-4 flex justify-between items-center text-purple-500 border-b-2">
+    <div className="p-4 flex justify-between items-center text-green-500 border-b-2">
       {/* Logo Link */}
       <Link href="/">
         <h1 className="text-2xl font-bold">Lead Convert</h1>
@@ -34,7 +34,7 @@ function DashboardNavBar() {
             key={idx}
             href={route.path}
             className={
-              pathname === route.path ? "border-b-2 border-purple-300" : ""
+              pathname === route.path ? "border-b-2 border-green-300" : ""
             }
           >
             {route.name}

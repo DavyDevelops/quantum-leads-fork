@@ -13,13 +13,13 @@ async function LandingPageNavbar() {
     <nav className="flex w-screen items-center justify-between p-6 ">
       <div>
         <Link
-          className="text-2xl font-bold text-purple-500 no-underline"
+          className="text-2xl font-bold text-green-500 no-underline"
           href="/"
         >
-          LeadConvert
+          Quantom Leads
         </Link>
       </div>
-      <div className="text-purple-500 font-semibold text-lg">
+      <div className="text-green-500 font-semibold text-lg">
         {user ? (
           <div className="flex flex-row gap-x-4 items-center">
             <Link href="/lead-magnets">

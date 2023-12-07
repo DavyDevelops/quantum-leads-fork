@@ -9,7 +9,7 @@ function LeadMagnetPromptEditor() {
   return (
     <div className="flex h-full flex-row">
       <div className="m-8 flex w-1/2 flex-col">
-        <h1 className="mb-4 w-fit bg-gradient-to-r from-red-400 to-purple-600 bg-clip-text text-3xl font-bold text-transparent">
+        <h1 className="mb-4 w-fit bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-3xl font-bold text-transparent">
           AI Prompt Editor
         </h1>
         <div className="mb-4">

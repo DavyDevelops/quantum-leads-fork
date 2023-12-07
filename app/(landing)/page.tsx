@@ -34,7 +34,7 @@ const Hero = () => {
     <div className="mx-4 mb-14 mt-6 flex flex-1 flex-col items-center text-center sm:mb-12 md:mb-32 md:mt-20">
       <h1 className="max-w-5xl text-2xl font-bold sm:text-4xl md:text-6xl">
         Convert Content Into Customers With{" "}
-        <span className="bg-gradient-to-r from-red-400 to-purple-600 bg-clip-text text-transparent">
+        <span className="bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent">
           {" "}
           AI Lead Magnets{" "}
         </span>
@@ -48,7 +48,7 @@ const Hero = () => {
       <div className="mt-3 flex max-w-4xl flex-col flex-wrap items-center justify-around sm:w-full sm:flex-row">
         <Link href="/lead-magnets">
           <Button variant="default" className="md:text-xl">
-            Create Your First AI Lead Magnet
+            Create Your First Quantom Lead
           </Button>
         </Link>
       </div>
@@ -59,22 +59,22 @@ const Hero = () => {
 const Features = () => {
   return (
     <div className="relative z-10 flex flex-col justify-center space-y-10 px-8 pb-12 pt-8 sm:py-12 md:flex-row md:space-x-10 md:space-y-0 md:py-20 lg:py-28 2xl:py-32">
-      <div className="absolute inset-0 z-0 -skew-y-6 transform bg-gradient-to-r from-purple-100 to-purple-50" />
+      <div className="absolute inset-0 z-0 -skew-y-6 transform bg-gradient-to-r from-green-100 to-green-50" />
       <div className="relative z-10 flex flex-col justify-center space-y-10 md:flex-row md:space-x-10 md:space-y-0">
         <FeatureCard
           title="Unique AI Lead Magnets"
           description="Beyond ebooks and videos, offer dynamic AI solutions that speak directly to your audience's needs."
-          icon={<HiSparkles className="h-16 w-16" />}
+          icon={<HiSparkles className="h-10 w-10" />}
         />
         <FeatureCard
           title="Effortless Email Capture"
           description="Let AI chatbots do all the hard work and capture leads for you, turning interactions into opportunities effortlessly."
-          icon={<HiMail className="h-16 w-16" />}
+          icon={<HiMail className="h-10 w-10" />}
         />
         <FeatureCard
           title="Easy Integration with Social Media"
           description="Make your posts work for you; effortlessly share interactive content and boost your lead generation."
-          icon={<IoShareSocialSharp className="h-16 w-16" />}
+          icon={<IoShareSocialSharp className="h-10 w-10" />}
         />
       </div>
     </div>
@@ -91,11 +91,11 @@ const FeatureCard = ({
   icon: JSX.Element;
 }) => {
   return (
-    <div className="flex flex-col items-center justify-center rounded-xl border border-purple-200 bg-white p-8 text-center">
-      <div className="mb-4 rounded-full bg-purple-500 p-4 text-white">
+    <div className="flex flex-col items-center justify-center rounded-xl border border-green-200 bg-white p-8 text-center">
+      <div className="mb-4 rounded-full bg-green-500 p-4 text-white">
         {icon}
       </div>
-      <h2 className="mt-4 text-xl font-light text-purple-500">{title}</h2>
+      <h2 className="mt-4 text-xl font-light text-green-500">{title}</h2>
       <p className="mt-2 italic text-gray-600">{description}</p>
     </div>
   );
@@ -185,7 +185,7 @@ const HowItWorksStep = ({
 }) => {
   return (
     <div className="flex w-full flex-col items-start justify-center px-8 py-6 text-left md:w-1/2">
-      <h3 className="text-xl font-semibold text-purple-500">{title}</h3>
+      <h3 className="text-xl font-semibold text-green-500">{title}</h3>
       <p className="mt-2 font-semibold text-gray-600">{description}</p>
       <ul className="mt-2">
         {checks.map((check, index) => (
@@ -193,7 +193,7 @@ const HowItWorksStep = ({
             key={index}
             className="text-grey-400 flex items-center font-light"
           >
-            <FaCheck className="mr-2 text-purple-500" />
+            <FaCheck className="mr-2 text-green-500" />
             {check}
           </li>
         ))}
@@ -204,7 +204,7 @@ const HowItWorksStep = ({
 
 const Pricing = () => {
   return (
-    <div className="bg-gradient-to-r from-purple-400 to-red-500  py-16">
+    <div className="bg-gradient-to-r from-green-400 to-green-500  py-16">
       <h2 className="text-5xl text-white font-bold text-center mb-8">
         Pricing
       </h2>
@@ -245,7 +245,7 @@ const Pricing = () => {
 const CallToAction = () => {
   return (
     <div className="flex flex-col items-center bg-white px-6 py-16 text-center">
-      <h2 className="text-3xl font-bold text-purple-500 sm:text-4xl md:text-5xl">
+      <h2 className="text-3xl font-bold text-green-500 sm:text-4xl md:text-5xl">
         Ready to Transform Your Content?
       </h2>
       <p className="mt-4 max-w-2xl text-lg text-grey-700 sm:text-xl md:text-2xl">

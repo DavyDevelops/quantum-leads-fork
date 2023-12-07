@@ -125,7 +125,7 @@ function LeadMagnetEditorNavbar() {
         )}
         {/*  Edit / Save */}
         {editing ? (
-          <div className="flex flex-row text-purple-500">
+          <div className="flex flex-row text-green-500">
             <BsCheck
               className="cursor-pointer"
               size={25}
