@@ -62,7 +62,7 @@ function LeadMagnetEmailCapturePreview({
           <button
             type="submit"
             disabled={email.indexOf("@") === -1 || name === ""}
-            className={`mt-4 rounded-lg border-2 border-green-500 bg-white px-6 py-3 text-lg font-semibold text-green-500 hover:border-white hover:bg-green-500 hover:text-white ${
+            className={`mt-4 rounded-lg border-2 border-yellow-500 bg-white px-6 py-3 text-lg font-semibold text-yellow-500 hover:border-white hover:bg-yellow-500 hover:text-white ${
               email.indexOf("@") === -1 || name === ""
                 ? "cursor-not-allowed opacity-50"
                 : ""

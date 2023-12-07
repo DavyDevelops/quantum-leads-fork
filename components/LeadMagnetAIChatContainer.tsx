@@ -79,7 +79,7 @@ function LeadMagnetAIChatContainer({
               <div
                 className={`rounded-lg px-4 py-2 ${
                   message.role === "user"
-                    ? "bg-green-500 text-white"
+                    ? "bg-yellow-500 text-white"
                     : "bg-gray-200 text-gray-800"
                 }`}
               >
@@ -94,14 +94,14 @@ function LeadMagnetAIChatContainer({
         <textarea
           value={input}
           onChange={handleInputChange}
-          className="flex-grow rounded-md border border-gray-300 bg-white px-3 py-2 text-gray-800 focus:outline-none focus:ring-2 focus:ring-green-500"
+          className="flex-grow rounded-md border border-gray-300 bg-white px-3 py-2 text-gray-800 focus:outline-none focus:ring-2 focus:ring-yellow-500"
           placeholder="Type your message"
           rows={1}
           style={{ resize: "none" }} // disable manual resize
         />
         <button
           type="submit"
-          className="ml-4 mt-auto h-10 flex-shrink-0 rounded-md bg-green-500 px-4 py-2 text-white disabled:cursor-not-allowed disabled:opacity-50"
+          className="ml-4 mt-auto h-10 flex-shrink-0 rounded-md bg-yellow-500 px-4 py-2 text-white disabled:cursor-not-allowed disabled:opacity-50"
           disabled={isLoading}
         >
           {isLoading ? (

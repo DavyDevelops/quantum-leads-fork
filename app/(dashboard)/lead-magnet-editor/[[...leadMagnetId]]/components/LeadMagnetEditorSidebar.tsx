@@ -49,7 +49,7 @@ function LeadMagnetEditorSidebar({
             className="mt-4 flex h-[28px] items-center text-xl font-semibold text-gray-600"
             onClick={() => setSelectedEditor(option.value)}
           >
-            <span className="text-green-400">
+            <span className="text-yellow-400">
               <option.icon />
             </span>
             {!isSidebarCollapsed && (
@@ -59,7 +59,7 @@ function LeadMagnetEditorSidebar({
         ))}
         <button
           onClick={() => setIsSidebarCollapsed(!isSidebarCollapsed)}
-          className="absolute right-4 bottom-4 text-2xl text-green-400"
+          className="absolute right-4 bottom-4 text-2xl text-yellow-400"
         >
           {isSidebarCollapsed ? (
             <TbLayoutSidebarRightCollapse />

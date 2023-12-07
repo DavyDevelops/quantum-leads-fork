@@ -12,7 +12,7 @@ function LeadsContainer({ leadMagnet, leads }: LeadsContainerProps) {
     <div className="p-6 w-full lg:max-w-5xl lg:mx-auto">
       <div className="flex  flex-row justify-between items-center mb-3">
         <h2 className="text-xl font-semibold">{leadMagnet.publishedTitle}</h2>
-        <span className="text-xl font-bold text-green-500">
+        <span className="text-xl font-bold text-yellow-500">
           {leads.length} Leads
         </span>
       </div>
