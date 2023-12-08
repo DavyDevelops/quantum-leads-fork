@@ -50,13 +50,14 @@ function LeadMagnetContentEditor() {
         })
       );
     }
-
+  
     return () => {
       if (editor) {
         editor.destroy();
       }
     };
-  }, []);
+  }, [editor, edittedLeadMagnet.draftBody, setEdittedLeadMagnet]);
+  
 
   return (
     <div className="flex h-full flex-row">

@@ -3,6 +3,8 @@ import { auth } from "@clerk/nextjs";
 import React from "react";
 import LeadMagnetsContainer from "./components/LeadMagnetsContainer";
 
+export const dynamic = "force-dynamic";
+
 const getLeadMagnets = async (userId: string) => {
   try {
     const leadMagnets = await prismadb.leadMagnet.findMany({

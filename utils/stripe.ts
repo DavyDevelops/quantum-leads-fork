@@ -14,3 +14,4 @@ export const getPayingStatus = (subscription: Subscription | null): boolean => {
     dayjs(subscription.stripeCurrentPeriodEnd).isAfter(dayjs())
   );
 };
+export const dynamic = "force-dynamic"
